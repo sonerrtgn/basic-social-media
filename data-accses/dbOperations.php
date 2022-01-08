@@ -5,13 +5,12 @@ include("../entities/gonderi.php");
 
 $db  = new Database();
 
-/*
-Kurulum testi
+
+//Kurulum için gerekli fonksiyonlar.
 $db->CreateUyeTable();
 $db->CreateYorumTable();
 $db->CreateGonderiTable();
 
-*/
 /*
 
 Create test
