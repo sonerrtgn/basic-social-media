@@ -42,9 +42,7 @@ while($count < 15){
       $database->CreateGonderi($yeniGonderi);
       $count++;
 }
-
-*/
 $database = new Database();
 print_r($database->GetGonderi(0));
-
+*/
 ?>
